@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Manager">
+      <UniqueIdentifier>{baa05417-cdbd-430b-bf15-af9ba3c948a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Tank">
+      <UniqueIdentifier>{c5f814e3-9fc8-46a6-9d88-af1acbcd8c17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Barrier">
+      <UniqueIdentifier>{5dd9acb3-a1da-4d43-8fe2-ce8cdd8b84be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Bullet">
+      <UniqueIdentifier>{cd8af02a-622d-4f45-9534-fb3729541bda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWord.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="TSoul.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IRigid.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>源文件\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoulManager.cpp">
+      <Filter>源文件\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>源文件\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>源文件\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="ManagerGroup.cpp">
+      <Filter>源文件\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectManager.cpp">
+      <Filter>源文件\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>源文件\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Tank.cpp">
+      <Filter>源文件\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerTank.cpp">
+      <Filter>源文件\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="EnemyTank.cpp">
+      <Filter>源文件\Tank</Filter>
+    </ClCompile>
+    <ClCompile Include="Barrier.cpp">
+      <Filter>源文件\Barrier</Filter>
+    </ClCompile>
+    <ClCompile Include="IronBarrier.cpp">
+      <Filter>源文件\Barrier</Filter>
+    </ClCompile>
+    <ClCompile Include="BrickBarrier.cpp">
+      <Filter>源文件\Barrier</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>源文件\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>源文件\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="GrassBarrier.cpp">
+      <Filter>源文件\Barrier</Filter>
+    </ClCompile>
+    <ClCompile Include="HomeBarrier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Barrier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickBarrier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EnemyTank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GameWorld.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IRigid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IronBarrier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerTank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SoulManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Tank.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="TSoul.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ManagerGroup.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GrassBarrier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeBarrier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
